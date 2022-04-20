@@ -1,10 +1,11 @@
-import '../styles/App.css';
+import { BrowserRouter } from 'react-router-dom';
+import AppLayout from '../page/AppLayout';
 
 function App() {
   return (
-    <div className="App">
-     DZIAŁA
-    </div>
+<BrowserRouter>
+<AppLayout/>
+</BrowserRouter>
   );
 }
 

@@ -1,0 +1,35 @@
+nav ul {
+list-style: none;
+display: flex;
+flex-direction: row;
+text-align: center;
+margin: auto
+
+}
+
+nav ul li a{
+text-decoration: none;
+height:100%
+
+
+
+}
+nav{
+    background-color: black;
+color:white 
+}
+nav a {
+    color:white;
+}
+nav ul li{
+   height:50px;
+   padding:30px
+}
+nav ul li:hover{
+    background-color: green;
+cursor: pointer;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
