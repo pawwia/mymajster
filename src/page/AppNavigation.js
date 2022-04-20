@@ -12,8 +12,8 @@ const list=[
 
 const AppNavigation = () => {
 const menu=list.map(item=>(
-    <li id={item.path}>
-<NavLink className={(navData)=>navData.isActive?"navactive":null} to={item.path} >{item.name}</NavLink>
+    <li  key={item.path}>
+<NavLink  className={(navData)=>navData.isActive?"navactive":null} to={item.path} >{item.name}</NavLink>
     </li>
 
 
